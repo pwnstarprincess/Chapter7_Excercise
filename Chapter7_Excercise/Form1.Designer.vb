@@ -52,7 +52,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(21, 169)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(213, 30)
+        Me.Label2.Size = New System.Drawing.Size(142, 20)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Textese Sentence:"
         '
@@ -69,7 +69,8 @@ Partial Class Form1
         Me.TexteseBox.Name = "TexteseBox"
         Me.TexteseBox.ReadOnly = True
         Me.TexteseBox.Size = New System.Drawing.Size(275, 26)
-        Me.TexteseBox.TabIndex = 4
+        Me.TexteseBox.TabIndex = 0
+        Me.TexteseBox.TabStop = False
         '
         'Form1
         '
