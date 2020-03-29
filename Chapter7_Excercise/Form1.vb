@@ -1,4 +1,8 @@
-﻿Imports Microsoft.VisualBasic.FileIO
+﻿'Jennifer Pezzulo
+'March 28, 2020
+'Module 3 Assignment 2 Chapter 7 Exercise Problem 5 (Textese Translation)
+
+Imports Microsoft.VisualBasic.FileIO
 Imports System.Text.RegularExpressions
 Public Class Form1
 
