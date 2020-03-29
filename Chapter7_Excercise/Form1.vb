@@ -36,7 +36,7 @@ Public Class Form1
                 End If
             End While
 
-            'split english input into an array of words.  Using regex to filter out punctuation
+            'split english input into a list of words.  Using regex to filter out punctuation
             'So that punctuation does not create a "false-translation"
             Dim words As List(Of String)
             words = Regex.Replace(EnglishBox.Text, "[!;:,.\""?]+", String.Empty).Split(" ").ToList()
